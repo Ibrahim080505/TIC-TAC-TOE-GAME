@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    
+    margin: 0; 
+    height: 100vh; 
+    background-image: url('ttt1.jpg'); 
+    background-size: cover; 
+      
+    
+    
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+  
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#status {
+    margin-top: 20px;
+    font-size: 18px;
+}
+#reset{
+   size: 800px;
+}
+.board{
+    border-style: double;
+}
